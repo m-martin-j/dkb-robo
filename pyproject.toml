@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dkb-robo"
+version = "0.16.0"
+description = "library to access the internet banking area of \"Deutsche Kreditbank\" to get account information and transactions"
+authors = ["Your Name <you@example.com>"]
+license = "GPLv3"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+beautifulsoup4 = "*"
+MechanicalSoup = "*"
+six = "*"
+html5lib = "*"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
